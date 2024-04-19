@@ -6,7 +6,7 @@ wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 
 ssid = 'patel'
-password = 'gurudatta'
+password = ''
 wlan.connect(ssid,password)
 
 while wlan.isconnected() == False:
